@@ -8,4 +8,4 @@ png = qrCode.as_png(
     size: 300
 )
 
-IO.binwrite("teste.png", png.to_s)
+IO.binwrite("./public/teste.png", png.to_s)
